@@ -11,7 +11,7 @@
     ├── README.md
     ...
   ```
-3. `docker run --rm -it -p 4567:4567 -v /$PWD/exported_files:/app/exported_files fukayatsu/esa-export-v1-viewer:0.0.1`
+3. `docker run --rm -it -p 4567:4567 -v $PWD/exported_files:/app/exported_files fukayatsu/esa-export-v1-viewer:0.0.1`
 4. Open http://localhost:4567 on browser
 
 
