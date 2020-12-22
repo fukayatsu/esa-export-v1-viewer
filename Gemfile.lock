@@ -1,0 +1,38 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    commonmarker (0.21.0)
+      ruby-enum (~> 0.5)
+    concurrent-ruby (1.1.7)
+    front_matter_parser (0.2.1)
+    i18n (1.8.5)
+      concurrent-ruby (~> 1.0)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    nio4r (2.5.4)
+    puma (5.1.1)
+      nio4r (~> 2.0)
+    rack (2.2.3)
+    rack-protection (2.1.0)
+      rack
+    ruby-enum (0.8.0)
+      i18n
+    ruby2_keywords (0.0.2)
+    sinatra (2.1.0)
+      mustermann (~> 1.0)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
+      tilt (~> 2.0)
+    tilt (2.0.10)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  commonmarker
+  front_matter_parser
+  puma
+  sinatra
+
+BUNDLED WITH
+   2.1.4
